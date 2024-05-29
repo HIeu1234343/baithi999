@@ -1,0 +1,14 @@
+DROP DATABASE IF EXISTS OrderSystem
+CREATE DATABASE OrderSystem
+USE OrderSystem
+GO
+
+CREATE TABLE Orders (
+    ItemCode INT PRIMARY KEY,
+    ItemName NVARCHAR(100) NOT NULL,
+    ItemQty INT NOT NULL,
+    OrderDelivery DATETIME NOT NULL,
+    OrderAddress NVARCHAR(255) NOT NULL,
+    PhoneNumber NVARCHAR(15) NOT NULL
+);
+GO

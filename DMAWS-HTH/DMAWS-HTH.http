@@ -1,0 +1,6 @@
+@DMAWS_HTH_HostAddress = http://localhost:5191
+
+GET {{DMAWS_HTH_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
